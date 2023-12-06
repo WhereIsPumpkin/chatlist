@@ -36,8 +36,8 @@ struct ProfileSetting: View {
                         ReusableTextField(title: "Name", placeholder: "John", isSecure: false)
                         ReusableTextField(title: "Email", placeholder: "Johndoe@gmail.com", isSecure: false)
                         ReusableTextField(title: "Password", placeholder: "********", isSecure: true)
-                        ReusableTextField(title: "Date of Birth", placeholder: "31/02/200", isSecure: true)
-                        ReusableTextField(title: "Country/Region", placeholder: "Georgia", isSecure: true)
+                        ReusableTextField(title: "Date of Birth", placeholder: "31/02/200", isSecure: false)
+                        ReusableTextField(title: "Country/Region", placeholder: "Georgia", isSecure: false)
                     }
                     
                     Button(action: {
